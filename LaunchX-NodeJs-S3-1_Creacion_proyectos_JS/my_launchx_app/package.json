@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/antoni-codes/LaunchX-NodeJs-S3-1_Creacion_proyectos_JS/issues"
   },
-  "homepage": "https://github.com/antoni-codes/LaunchX-NodeJs-S3-1_Creacion_proyectos_JS#readme"
+  "homepage": "https://github.com/antoni-codes/LaunchX-NodeJs-S3-1_Creacion_proyectos_JS#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
