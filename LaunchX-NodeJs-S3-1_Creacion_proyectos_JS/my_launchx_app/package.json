@@ -1,0 +1,24 @@
+{
+  "name": "my_launchx_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoni-codes/LaunchX-NodeJs-S3-1_Creacion_proyectos_JS.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Testing",
+    "Jest"
+  ],
+  "author": "Antonicodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoni-codes/LaunchX-NodeJs-S3-1_Creacion_proyectos_JS/issues"
+  },
+  "homepage": "https://github.com/antoni-codes/LaunchX-NodeJs-S3-1_Creacion_proyectos_JS#readme"
+}
