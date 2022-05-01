@@ -1,8 +1,9 @@
-
+// Importanción de clase MissionCommander
+const MissionCommander = require('./../app/MissionCommander')
 // Prueba básica de Jest
-describe("Esto es un suite de pruebas", () => {
-    test('Caso de Prueba 1', () => {
-        const result = 1 + 2
-        expect(result).toBe(10)
+describe("Unit Tests for Mission Commander Class", () => {
+    test('Create a mission commander object :', () => {
+        const myMissionCommander = new MissionCommander('Emmanuel')
+        expect(myMissionCommander.name).toBe('Emmanuel')
     })
 })
