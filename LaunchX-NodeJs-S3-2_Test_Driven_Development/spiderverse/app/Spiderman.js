@@ -1,11 +1,11 @@
 class Spiderman {
-            // constructor(name, age, actor, numMovies, producer) {
-            //     this.name = name
-            //     this.name = age
-            //     this.actor = actor
-            //     this.numMovies = numMovies
-            //     this.producer = producer
-            // }
+            constructor(name, age, actor, numMovies, producer) {
+                this.name = name
+                this.name = age
+                this.actor = actor
+                this.numMovies = numMovies
+                this.producer = producer
+            }
         }
 
 
