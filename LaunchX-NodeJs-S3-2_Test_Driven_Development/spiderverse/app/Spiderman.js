@@ -1,5 +1,5 @@
 class Spiderman {
-    constructor(name, age, actor, numMovies, producer) {
+    constructor(name, age, actor, numMovies, studio) {
         this.name = name
         this.age = age
         this.actor = actor

@@ -12,6 +12,11 @@ describe("Unit Tests for Spiderman Class", () => {
         expect(andrewGarfield.age).toBe(31)
         expect(andrewGarfield.actor).toBe('Andrew Garfield')
         expect(andrewGarfield.numMovies).toBe(2)
-        expect(andrewGarfield.producer).toBe('Sony')
+        expect(andrewGarfield.studio).toBe('Sony')
+    })
+
+    test('Case 2: Use the method getInfo()', () => {
+        const tomHolland = new Spiderman('Spiderman: Far from Home', 25, 'Tom Holland', 5, 'Marvel')
+        expect(tomHolland.getInfo())
     })
 })
