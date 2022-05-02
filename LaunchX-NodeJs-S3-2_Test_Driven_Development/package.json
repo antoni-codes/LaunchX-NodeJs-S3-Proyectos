@@ -1,0 +1,11 @@
+{
+  "name": "launchx-nodejs-s3-2_test_driven_development",
+  "version": "1.0.0",
+  "description": "## ⌨ Descripción Creación de un proyecto con JavaScript, con la técnica de diseño de software TDD (Testing Driven Development )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
