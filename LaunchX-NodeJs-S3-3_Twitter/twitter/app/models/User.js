@@ -9,21 +9,23 @@ class User {
         this.lastUpdated = new Date()
     }
 
-    getUsername() {
+    get getUsername() {
         return this.userName
     }
 
-    getBio() {
+    get getBio() {
         return this.bio
     }
 
-    getDateCreated() {
+    get getDateCreated() {
         return this.dateCreated
     }
 
-    getLastUpdated() {
+    get getLastUpdated() {
         return this.lastUpdated
     }
+
+
 }
 
 module.exports = User
