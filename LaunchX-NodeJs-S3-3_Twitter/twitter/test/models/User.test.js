@@ -31,7 +31,7 @@ describe("Unit Test fors for User Class", () => {
         const myUser = new User(1, 'antonicodes', 'Emmanuel', "Hi, i'm a Web Developer");
 
         myUser.setUserName = "antoniandcodes"
-        expect(myUser.userName).toBe("Antoniandcodes")
+        expect(myUser.userName).toBe("antoniandcodes")
 
         myUser.setBio = "I love programming"
         expect(myUser.bio).toBe("I love programming")

@@ -30,7 +30,7 @@ class User {
     }
 
     set setBio(newBio) {
-        return this.setBio = newBio
+        return this.bio = newBio
     }
 
 }
