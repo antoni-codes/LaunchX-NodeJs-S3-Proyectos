@@ -1,8 +1,13 @@
 const User = require('./../models/User')
 class UserService {
 
-    static create(id, userName, name,) {
+    static create(id, userName, name) {
         return new User(id, userName, name, "Sin bio")
+    }
+
+    static getInfo(user){
+        // Retorna una lista/array con los valores de los atributos del objeto
+        return Object.values(user)
     }
 }
 
