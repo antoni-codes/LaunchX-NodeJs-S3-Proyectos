@@ -29,4 +29,13 @@ describe("Unit Test for UserService Class", () => {
     })
 
 
+    // Requerimiento 3: Agregar un nuevo método estático en 'UserService' llamado 'updateUserUsername', que reciba un objeto de la clase 'USer', y un nuevo string, que actualizara el valor de username.
+
+    test("3. Update Username", () => {
+        const myUserService = UserService.create(1, 'antonicodes', 'Emmanuel Hernández')
+        UserService.updateUserUsername(myUserService, 'emmacodes')
+
+        expect(myUserService.userName).toBe('emmacodes')
+    })
+
 })

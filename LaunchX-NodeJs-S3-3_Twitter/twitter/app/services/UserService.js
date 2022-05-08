@@ -5,9 +5,13 @@ class UserService {
         return new User(id, userName, name, "Sin bio")
     }
 
-    static getInfo(user){
+    static getInfo(user) {
         // Retorna una lista/array con los valores de los atributos del objeto
         return Object.values(user)
+    }
+
+    static updateUserUsername(user, newUserName) {
+        return user.setUserName = newUserName
     }
 }
 
