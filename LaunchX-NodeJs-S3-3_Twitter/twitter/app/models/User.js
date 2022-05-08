@@ -1,6 +1,6 @@
 
 class User {
-    constructor(id, userName, name, bio, dateCreated, lastUpdated){
+    constructor(id, userName, name, bio){
         this.id = id
         this.userName = userName
         this.name = name
