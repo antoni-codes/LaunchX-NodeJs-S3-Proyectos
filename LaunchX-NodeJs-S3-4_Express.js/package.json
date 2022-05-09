@@ -1,0 +1,11 @@
+{
+  "name": "launchx-nodejs-s3-4_express",
+  "version": "1.0.0",
+  "description": "## Descripción Creación de mi primer proyecto en la creación de apps con Backend usando Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
