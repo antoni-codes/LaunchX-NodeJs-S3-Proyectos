@@ -13,10 +13,20 @@ app.get('/', (req, res) => {
 })
 
 // Respondiendo texto
+/*-- Agregando una nueva ruta y respondiendo un nuevo texto --*/
 // localhost:3000/launchx
 app.get('/launchx', (req, res) => {
     res.send('Bienvenidos a Launch X')
 })
+
+/*-- Regresando un Objeto --*/
+// localhost:3000/explorersInNode
+app.get('/explorersInNode', (req, res) => {
+    const explorer = {name: "Emmanuel", msg: "Hello"}
+    res.send(explorer)
+})
+
+
 
 // Con esto inicializamos esta App
 app.listen(port, () => {
