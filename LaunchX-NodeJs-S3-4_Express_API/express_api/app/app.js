@@ -36,3 +36,12 @@ app.get('/v1/explorers/:id', (req, res) => {
     const explorer = {id: 1, name: 'Emmanuel'}
     res.status(200).json(explorer);
 })
+
+
+/*-- POST: CREA UN "ENDPOINT" QUE SE ENCARGUE DE CREAR UN EXPLORER --*/
+app.post('/v1/explorers', (req, res) => {
+    console.log(`API Explorers POST request ${new Date()}`);
+
+    const requestBody = req.body // Parámetros de un cliente
+    res.status(201).json({message: "Created"})
+})
