@@ -54,3 +54,12 @@ app.put('/v1/explorers/:id', (req, res) => {
     const requestBody = req.body // Parámetros de un cliente
     res.status(200).json({message: "Update!"})
 })
+
+/*-- DELETE: CREA UN "ENDPOINT" PARA ELIMINAR UN EXPLORER--*/
+app.delete('/v1/explorers/:id', (req, res) => {
+    console.log(`API Explorers DELETE request ${new Date()}`);
+    console.log(`Delete Explorer with id: ${req.params.id}`);
+    
+    const requestBody = req.body // Parámetros de un cliente
+    res.status(200).json({message: "Deleted"});
+})
