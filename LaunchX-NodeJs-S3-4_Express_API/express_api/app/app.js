@@ -45,3 +45,12 @@ app.post('/v1/explorers', (req, res) => {
     const requestBody = req.body // Parámetros de un cliente
     res.status(201).json({message: "Created"})
 })
+
+/*-- PUT: CREA UN "ENDPOINT" QUE SE ENCARGUE DE ACTUALIZAR UN EXPLORER  --*/
+app.put('/v1/explorers/:id', (req, res) => {
+    console.log(`API Explorers PUT request ${new Date()}`);
+    console.log(`Update Explorer with id ${req.params.id}`);
+
+    const requestBody = req.body // Parámetros de un cliente
+    res.status(200).json({message: "Update!"})
+})
